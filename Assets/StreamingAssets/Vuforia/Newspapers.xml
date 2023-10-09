@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="out_magazine_bw_target" size="0.215900 0.286641" />
+    <ImageTarget name="out_magazine_color_target" size="0.215900 0.286641" />
+  </Tracking>
+</QCARConfig>
