@@ -1,6 +1,15 @@
 {
-  "dependencies": {
-    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.17.4.tgz",
+    "scopedRegistries": [
+        {
+            "name": "Git for Unity",
+            "url": "https://registry.spoiledcat.com",
+            "scopes": [
+                "com.spoiledcat"
+            ]
+        }
+    ],
+    "dependencies": {
+    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.18.4.tgz",
     "com.spoiledcat.git": "1.0.18",
     "com.unity.collab-proxy": "2.0.7",
     "com.unity.feature.development": "1.0.1",
@@ -39,14 +48,5 @@
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
     "com.unity.modules.xr": "1.0.0"
-  },
-  "scopedRegistries": [
-    {
-      "name": "Git for Unity",
-      "url": "https://registry.spoiledcat.com",
-      "scopes": [
-        "com.spoiledcat"
-      ]
-    }
-  ]
+  }
 }
