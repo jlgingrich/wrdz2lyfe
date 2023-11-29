@@ -450,7 +450,7 @@ GameObject:
   - component: {fileID: 91154195}
   - component: {fileID: 91154198}
   - component: {fileID: 91154197}
-  - component: {fileID: 91154196}
+  - component: {fileID: 91154199}
   m_Layer: 0
   m_Name: TargetPage5
   m_TagString: Untagged
@@ -473,25 +473,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &91154196
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91154194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 91154198}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-05
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 91154198}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &91154197
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -562,7 +543,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 91154196}
+  mPreview: {fileID: 91154199}
+--- !u!114 &91154199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91154194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 91154198}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-05
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 91154198}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &124537528
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,7 +946,7 @@ GameObject:
   - component: {fileID: 372577790}
   - component: {fileID: 372577793}
   - component: {fileID: 372577792}
-  - component: {fileID: 372577791}
+  - component: {fileID: 372577794}
   m_Layer: 0
   m_Name: TargetPage7
   m_TagString: Untagged
@@ -969,25 +969,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &372577791
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 372577789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 372577793}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-07
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 372577793}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &372577792
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1058,7 +1039,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 372577791}
+  mPreview: {fileID: 372577794}
+--- !u!114 &372577794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372577789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 372577793}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-07
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 372577793}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &376306809
 GameObject:
   m_ObjectHideFlags: 0
@@ -1190,7 +1190,10 @@ GameObject:
   - component: {fileID: 401763833}
   - component: {fileID: 401763836}
   - component: {fileID: 401763835}
-  - component: {fileID: 401763834}
+  - component: {fileID: 401763838}
+  - component: {fileID: 401763837}
+  - component: {fileID: 401763839}
+  - component: {fileID: 401763840}
   m_Layer: 0
   m_Name: TargetPage2
   m_TagString: Untagged
@@ -1210,28 +1213,11 @@ Transform:
   m_LocalPosition: {x: 0.24999999, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 745554900}
+  - {fileID: 1218013391}
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &401763834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401763832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 401763836}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-02
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 401763836}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &401763835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1302,7 +1288,158 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 401763834}
+  mPreview: {fileID: 401763840}
+--- !u!114 &401763837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401763832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52a168623c319324f9cb9142c3348070, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  expandMaterial: {fileID: 2100000, guid: 7cbcb410c3161a548906fbe608fc1ec2, type: 2}
+  collapseMaterial: {fileID: 2100000, guid: 5fe9d900eb9826443ba596e0ba48caba, type: 2}
+  toggleableDisplayMapping:
+  - button: {fileID: 1218013394}
+    hideables:
+    - {fileID: 1218013393}
+    - {fileID: 1218013392}
+--- !u!114 &401763838
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401763832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c26cbceea5112d46a8eb6754e163556, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playTexture: {fileID: 2100000, guid: 09bf10e112c66344782909c7fb38029d, type: 2}
+  pauseTexture: {fileID: 2100000, guid: 405b847275b3bc84290e4264d8c04960, type: 2}
+  buttonAudioMapping:
+  - audioButton: {fileID: 745554901}
+    audioClip: {fileID: 8300000, guid: ef68e5f90da039d4184e56411f2ffa33, type: 3}
+--- !u!82 &401763839
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401763832}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &401763840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 401763832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 401763836}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-02
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 401763836}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &473608555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1810,7 +1947,7 @@ GameObject:
   - component: {fileID: 533632409}
   - component: {fileID: 533632412}
   - component: {fileID: 533632411}
-  - component: {fileID: 533632410}
+  - component: {fileID: 533632413}
   m_Layer: 0
   m_Name: TargetPage15
   m_TagString: Untagged
@@ -1833,25 +1970,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &533632410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 533632408}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 533632412}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-15
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 533632412}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &533632411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1922,7 +2040,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 533632410}
+  mPreview: {fileID: 533632413}
+--- !u!114 &533632413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 533632408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 533632412}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-15
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 533632412}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!224 &554788642 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1872067406685677877, guid: f2f971b50cca0384fa63a81b0fa0c933,
@@ -1940,7 +2077,7 @@ GameObject:
   - component: {fileID: 557601673}
   - component: {fileID: 557601676}
   - component: {fileID: 557601675}
-  - component: {fileID: 557601674}
+  - component: {fileID: 557601677}
   m_Layer: 0
   m_Name: TargetPage11
   m_TagString: Untagged
@@ -1963,25 +2100,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &557601674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 557601672}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 557601676}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-11
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 557601676}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &557601675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2052,7 +2170,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 557601674}
+  mPreview: {fileID: 557601677}
+--- !u!114 &557601677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 557601672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 557601676}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-11
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 557601676}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!4 &637315511 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1717906565899467367, guid: 91162b57556f7c64ba61d81213ae3792,
@@ -2537,6 +2674,111 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 701856426}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!1001 &745554899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 401763833}
+    m_Modifications:
+    - target: {fileID: 4528376563238051694, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_Name
+      value: ReadableGroup
+      objectReference: {fileID: 0}
+    - target: {fileID: 4528376563238051694, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6566443527514954583, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_Size.x
+      value: 6.2842927
+      objectReference: {fileID: 0}
+    - target: {fileID: 6566443527514954583, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 11.747717
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.027012154
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0059309006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344218512304553751, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.02825
+      objectReference: {fileID: 0}
+    - target: {fileID: 7344218512304553751, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.06285
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 57d893df815392744bd5372cdbc58bab, type: 3}
+--- !u!4 &745554900 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
+    type: 3}
+  m_PrefabInstance: {fileID: 745554899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &745554901 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 1966021837912264265, guid: 57d893df815392744bd5372cdbc58bab,
+    type: 3}
+  m_PrefabInstance: {fileID: 745554899}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &784317442
 GameObject:
   m_ObjectHideFlags: 0
@@ -2735,7 +2977,7 @@ GameObject:
   - component: {fileID: 887788072}
   - component: {fileID: 887788075}
   - component: {fileID: 887788074}
-  - component: {fileID: 887788073}
+  - component: {fileID: 887788076}
   m_Layer: 0
   m_Name: TargetPage9
   m_TagString: Untagged
@@ -2758,25 +3000,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &887788073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887788071}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 887788075}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-09
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 887788075}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &887788074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2847,7 +3070,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 887788073}
+  mPreview: {fileID: 887788076}
+--- !u!114 &887788076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887788071}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 887788075}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-09
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 887788075}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &972742086
 GameObject:
   m_ObjectHideFlags: 0
@@ -2859,7 +3101,7 @@ GameObject:
   - component: {fileID: 972742087}
   - component: {fileID: 972742090}
   - component: {fileID: 972742089}
-  - component: {fileID: 972742088}
+  - component: {fileID: 972742091}
   m_Layer: 0
   m_Name: TargetPage14
   m_TagString: Untagged
@@ -2882,25 +3124,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &972742088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 972742086}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 972742090}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-14
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 972742090}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &972742089
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2971,7 +3194,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 972742088}
+  mPreview: {fileID: 972742091}
+--- !u!114 &972742091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 972742086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 972742090}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-14
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 972742090}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1134425600
 GameObject:
   m_ObjectHideFlags: 0
@@ -3096,6 +3338,103 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1134425603}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!1001 &1218013390
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 401763833}
+    m_Modifications:
+    - target: {fileID: 2308908212267104061, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_Name
+      value: ToggleGroup
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588943365589315933, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.07523331
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588943365589315933, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588943365589315933, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.12892616
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588943365589315933, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588943365589315933, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588943365589315933, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588943365589315933, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588943365589315933, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588943365589315933, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6588943365589315933, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773999390703948721, guid: ec3c24c1090259148acc0548d2251317,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7327c58d1cc40c842b90787fa18a34eb, type: 2}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec3c24c1090259148acc0548d2251317, type: 3}
+--- !u!4 &1218013391 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6588943365589315933, guid: ec3c24c1090259148acc0548d2251317,
+    type: 3}
+  m_PrefabInstance: {fileID: 1218013390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1218013392 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 599738517029935098, guid: ec3c24c1090259148acc0548d2251317,
+    type: 3}
+  m_PrefabInstance: {fileID: 1218013390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1218013393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1902778650829153912, guid: ec3c24c1090259148acc0548d2251317,
+    type: 3}
+  m_PrefabInstance: {fileID: 1218013390}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1218013394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4070576612692938673, guid: ec3c24c1090259148acc0548d2251317,
+    type: 3}
+  m_PrefabInstance: {fileID: 1218013390}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1223863052
 GameObject:
   m_ObjectHideFlags: 0
@@ -3175,7 +3514,7 @@ GameObject:
   - component: {fileID: 1245015300}
   - component: {fileID: 1245015303}
   - component: {fileID: 1245015302}
-  - component: {fileID: 1245015301}
+  - component: {fileID: 1245015304}
   m_Layer: 0
   m_Name: TargetPage12
   m_TagString: Untagged
@@ -3198,25 +3537,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1245015301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1245015299}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1245015303}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-12
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 1245015303}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1245015302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3287,7 +3607,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1245015301}
+  mPreview: {fileID: 1245015304}
+--- !u!114 &1245015304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245015299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1245015303}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-12
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 1245015303}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1253149975
 GameObject:
   m_ObjectHideFlags: 0
@@ -3605,7 +3944,7 @@ GameObject:
   - component: {fileID: 1321709189}
   - component: {fileID: 1321709192}
   - component: {fileID: 1321709191}
-  - component: {fileID: 1321709190}
+  - component: {fileID: 1321709193}
   m_Layer: 0
   m_Name: TargetPage10
   m_TagString: Untagged
@@ -3628,25 +3967,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1321709190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321709188}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1321709192}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-10
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 1321709192}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1321709191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3717,7 +4037,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1321709190}
+  mPreview: {fileID: 1321709193}
+--- !u!114 &1321709193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321709188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1321709192}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-10
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 1321709192}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1348155841
 GameObject:
   m_ObjectHideFlags: 0
@@ -3959,7 +4298,7 @@ GameObject:
   - component: {fileID: 1431747789}
   - component: {fileID: 1431747792}
   - component: {fileID: 1431747791}
-  - component: {fileID: 1431747790}
+  - component: {fileID: 1431747793}
   m_Layer: 0
   m_Name: TargetPage8
   m_TagString: Untagged
@@ -3982,25 +4321,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1431747790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431747788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1431747792}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-08
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 1431747792}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1431747791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4071,7 +4391,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1431747790}
+  mPreview: {fileID: 1431747793}
+--- !u!114 &1431747793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431747788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1431747792}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-08
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 1431747792}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1475418742
 GameObject:
   m_ObjectHideFlags: 0
@@ -4207,7 +4546,7 @@ GameObject:
   - component: {fileID: 1536876569}
   - component: {fileID: 1536876572}
   - component: {fileID: 1536876571}
-  - component: {fileID: 1536876570}
+  - component: {fileID: 1536876573}
   m_Layer: 0
   m_Name: TargetPage3
   m_TagString: Untagged
@@ -4230,25 +4569,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1536876570
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1536876568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1536876572}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-03
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 1536876572}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1536876571
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4319,7 +4639,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1536876570}
+  mPreview: {fileID: 1536876573}
+--- !u!114 &1536876573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536876568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1536876572}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-03
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 1536876572}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1680406014
 GameObject:
   m_ObjectHideFlags: 0
@@ -4576,7 +4915,7 @@ GameObject:
   - component: {fileID: 1700154980}
   - component: {fileID: 1700154983}
   - component: {fileID: 1700154982}
-  - component: {fileID: 1700154981}
+  - component: {fileID: 1700154984}
   m_Layer: 0
   m_Name: TargetPage1
   m_TagString: Untagged
@@ -4599,25 +4938,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1700154981
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1700154979}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1700154983}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-01
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 1700154983}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1700154982
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4688,7 +5008,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1700154981}
+  mPreview: {fileID: 1700154984}
+--- !u!114 &1700154984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700154979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1700154983}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-01
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 1700154983}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1702177329
 GameObject:
   m_ObjectHideFlags: 0
@@ -4700,7 +5039,7 @@ GameObject:
   - component: {fileID: 1702177330}
   - component: {fileID: 1702177333}
   - component: {fileID: 1702177332}
-  - component: {fileID: 1702177331}
+  - component: {fileID: 1702177334}
   m_Layer: 0
   m_Name: TargetPage6
   m_TagString: Untagged
@@ -4723,25 +5062,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1702177331
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1702177329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1702177333}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-06
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 1702177333}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1702177332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4812,7 +5132,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1702177331}
+  mPreview: {fileID: 1702177334}
+--- !u!114 &1702177334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702177329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1702177333}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-06
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 1702177333}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1706990511
 GameObject:
   m_ObjectHideFlags: 0
@@ -4824,7 +5163,7 @@ GameObject:
   - component: {fileID: 1706990512}
   - component: {fileID: 1706990515}
   - component: {fileID: 1706990514}
-  - component: {fileID: 1706990513}
+  - component: {fileID: 1706990516}
   m_Layer: 0
   m_Name: TargetPage4
   m_TagString: Untagged
@@ -4847,25 +5186,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1706990513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1706990511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1706990515}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-04
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 1706990515}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1706990514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4936,7 +5256,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1706990513}
+  mPreview: {fileID: 1706990516}
+--- !u!114 &1706990516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706990511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1706990515}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-04
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 1706990515}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1728297609
 GameObject:
   m_ObjectHideFlags: 0
@@ -4948,7 +5287,7 @@ GameObject:
   - component: {fileID: 1728297610}
   - component: {fileID: 1728297613}
   - component: {fileID: 1728297612}
-  - component: {fileID: 1728297611}
+  - component: {fileID: 1728297614}
   m_Layer: 0
   m_Name: TargetPage13
   m_TagString: Untagged
@@ -4971,25 +5310,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2040168507}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1728297611
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1728297609}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1728297613}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Small-bpp_4-13
-  mDatasetName: Vuforia/BPP_4.xml
-  mCastedBehaviour: {fileID: 1728297613}
-  mMeshFilter: {fileID: 0}
-  mMeshRenderer: {fileID: 0}
 --- !u!114 &1728297612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5060,7 +5380,26 @@ MonoBehaviour:
   mMotionHint: 1
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
-  mPreview: {fileID: 1728297611}
+  mPreview: {fileID: 1728297614}
+--- !u!114 &1728297614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1728297609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1728297613}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Small-bpp_4-13
+  mDatasetName: Vuforia/BPP_4.xml
+  mCastedBehaviour: {fileID: 1728297613}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1731442630
 GameObject:
   m_ObjectHideFlags: 0
