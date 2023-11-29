@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Small-bpp_4-05" size="0.220000 0.288292" />
+    <ImageTarget name="Small-bpp_4-04" size="0.220000 0.295167" />
+    <ImageTarget name="Small-bpp_4-15" size="0.220000 0.289208" />
+    <ImageTarget name="Small-bpp_4-14" size="0.220000 0.288292" />
+    <ImageTarget name="Small-bpp_4-13" size="0.220000 0.286458" />
+    <ImageTarget name="Small-bpp_4-12" size="0.220000 0.291042" />
+    <ImageTarget name="Small-bpp_4-11" size="0.220000 0.286458" />
+    <ImageTarget name="Small-bpp_4-10" size="0.220000 0.308000" />
+    <ImageTarget name="Small-bpp_4-09" size="0.220000 0.284167" />
+    <ImageTarget name="Small-bpp_4-08" size="0.220000 0.148958" />
+    <ImageTarget name="Small-bpp_4-07" size="0.220000 0.287833" />
+    <ImageTarget name="Small-bpp_4-06" size="0.220000 0.291500" />
+    <ImageTarget name="Small-bpp_4-03" size="0.220000 0.293792" />
+    <ImageTarget name="Small-bpp_4-02" size="0.220000 0.297917" />
+    <ImageTarget name="Small-bpp_4-01" size="0.220000 0.296542" />
+  </Tracking>
+</QCARConfig>
