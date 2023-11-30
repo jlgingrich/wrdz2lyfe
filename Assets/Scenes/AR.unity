@@ -136,6 +136,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ReadableGroup (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5047346095726657392, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayButtono22
+      objectReference: {fileID: 0}
     - target: {fileID: 6566443527514954583, guid: 57d893df815392744bd5372cdbc58bab,
         type: 3}
       propertyPath: m_Size.y
@@ -8137,6 +8142,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ReadableGroup
       objectReference: {fileID: 0}
+    - target: {fileID: 5047346095726657392, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayButtonO11
+      objectReference: {fileID: 0}
     - target: {fileID: 6566443527514954583, guid: 57d893df815392744bd5372cdbc58bab,
         type: 3}
       propertyPath: m_Size.x
@@ -8641,7 +8651,7 @@ PrefabInstance:
     - target: {fileID: 4528376563238051694, guid: 57d893df815392744bd5372cdbc58bab,
         type: 3}
       propertyPath: m_Name
-      value: ReadableGroup (2)
+      value: ReadableGroupo23
       objectReference: {fileID: 0}
     - target: {fileID: 6566443527514954583, guid: 57d893df815392744bd5372cdbc58bab,
         type: 3}
@@ -12259,6 +12269,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: ReadableGroup
+      objectReference: {fileID: 0}
+    - target: {fileID: 5047346095726657392, guid: 57d893df815392744bd5372cdbc58bab,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayButtono21
       objectReference: {fileID: 0}
     - target: {fileID: 7129175340096022723, guid: 57d893df815392744bd5372cdbc58bab,
         type: 3}
